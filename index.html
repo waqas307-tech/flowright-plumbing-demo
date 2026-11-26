@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FlowRight Plumbing — Austin, TX | Plumbers for Drains, Leaks &amp; Water Heaters</title>
+  <meta name="description" content="FlowRight Plumbing — a family-run plumbing company in Austin, TX. Drain cleaning, leak repair, water heaters and 24/7 emergency call-outs. Upfront prices, same-day service.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top strip: today's hours are filled in by script.js -->
+  <div class="topbar">
+    <p><span class="dot"></span> Open today: <strong id="today-hours">7:00 AM – 7:00 PM</strong> &nbsp;·&nbsp; 4810 Burnet Road, Austin, TX &nbsp;·&nbsp; (512) 555-0187</p>
+  </div>
+
+  <!-- Header: name left, links right, sticks to the top while scrolling -->
+  <header class="site-header" id="site-header">
+    <a class="logo" href="#top" aria-label="FlowRight Plumbing home">
+      <svg class="logo-mark" width="30" height="30" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M14.7 6.3a4.5 4.5 0 0 1 5.9-4.3l-2.9 2.9 1 2.4 2.4 1 2.9-2.9a4.5 4.5 0 0 1-5.7 5.7L7 22.5a2.1 2.1 0 0 1-3-3l11.3-11.3a4.5 4.5 0 0 1-.6-1.9Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+      <span>FlowRight <em>Plumbing</em></span>
+    </a>
+    <button class="menu-button" id="menu-button" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="main-nav" id="main-nav">
+      <a href="#services">Services</a>
+      <a href="#prices">Prices</a>
+      <a href="#about">About Us</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+      <a class="call-button" href="tel:+15125550187">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a12 12 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+        (512) 555-0187
+      </a>
+    </nav>
+  </header>
+
+  <!-- HERO: big photo, clear promise, two clear buttons -->
+  <section class="hero" id="top">
+    <div class="hero-inner">
+      <p class="hero-badge">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9 2.9-6Z"/></svg>
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9 2.9-6Z"/></svg>
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9 2.9-6Z"/></svg>
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9 2.9-6Z"/></svg>
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9 2.9-6Z"/></svg>
+        &nbsp;4.8 from 900+ Austin reviews
+      </p>
+      <h1>Plumbing problems,<br><em>sorted today.</em></h1>
+      <p class="hero-sub">Blocked drain, leaking pipe or a water heater that has given up — call us in the morning and it is usually fixed before dinner. You get the price before we start, not after.</p>
+      <div class="hero-buttons">
+        <a class="button" href="tel:+15125550187">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a12 12 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          Call (512) 555-0187
+        </a>
+        <a class="button button-ghost" href="https://maps.google.com/?q=4810+Burnet+Road+Austin+TX" target="_blank" rel="noopener">Get directions</a>
+      </div>
+      <div class="hero-chips">
+        <span>Licensed &amp; insured</span>
+        <span>Same-day service</span>
+        <span>Upfront pricing</span>
+        <span>24/7 emergency</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST POINTS: the four things customers ask about first -->
+  <section class="trust" aria-label="Why call FlowRight">
+    <div class="trust-grid">
+      <div class="trust-item reveal">
+        <svg width="34" height="34" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3l7 2.8V11c0 4.6-3 7.9-7 9.5C8 18.9 5 15.6 5 11V5.8L12 3Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M9 11.5l2.2 2.2L15.5 9.4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <h3>Licensed &amp; insured</h3>
+        <p>Every plumber on our team is licensed in Texas, and the company is fully insured.</p>
+      </div>
+      <div class="trust-item reveal">
+        <svg width="34" height="34" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="8.5" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.5V12l3 2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <h3>Same-day service</h3>
+        <p>Call before noon and we will do our best to be at your door the same day.</p>
+      </div>
+      <div class="trust-item reveal">
+        <svg width="34" height="34" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3.5 3.5H12L20.5 12a2 2 0 0 1 0 2.8l-5.7 5.7a2 2 0 0 1-2.8 0L3.5 12V3.5Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><circle cx="8" cy="8" r="1.6" stroke="currentColor" stroke-width="1.7"/></svg>
+        <h3>Upfront pricing</h3>
+        <p>We quote the full price before any work starts. If you say no, you only pay the call-out fee.</p>
+      </div>
+      <div class="trust-item reveal">
+        <svg width="34" height="34" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 16v-3a8 8 0 0 1 16 0v3" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><path d="M3 16.5A1.5 1.5 0 0 1 4.5 15h1A1.5 1.5 0 0 1 7 16.5v2A1.5 1.5 0 0 1 5.5 20h-1A1.5 1.5 0 0 1 3 18.5v-2ZM17 16.5a1.5 1.5 0 0 1 1.5-1.5h1A1.5 1.5 0 0 1 21 16.5v2A1.5 1.5 0 0 1 19.5 20h-1A1.5 1.5 0 0 1 17 18.5v-2Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M19.5 20c0 1.2-1.2 2-3 2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+        <h3>24/7 emergency</h3>
+        <p>Burst pipe at 2 in the morning? A real person answers the phone, day or night.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES: photo cards for the four jobs we get called for most -->
+  <section class="section" id="services">
+    <p class="eyebrow">What we do</p>
+    <h2>The jobs we get <em>called for most</em></h2>
+    <p class="section-intro">Most of our work is the same handful of problems, so we carry the parts on the truck and finish most jobs in one visit.</p>
+
+    <div class="service-grid">
+      <article class="service-card reveal">
+        <div class="service-photo"><img src="https://images.unsplash.com/photo-1676210134188-4c05dd172f89?q=80&w=900&auto=format&fit=crop" alt="Plumber fixing the pipes under a kitchen sink"><span class="tag">From $89</span></div>
+        <div class="service-body">
+          <h3>Drain Cleaning</h3>
+          <p>Sinks, tubs and main lines. We clear the blockage and check with a camera if it keeps coming back.</p>
+        </div>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-photo"><img src="https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?q=80&w=900&auto=format&fit=crop" alt="Pipework and valves on a brick wall"><span class="tag">From $1,450</span></div>
+        <div class="service-body">
+          <h3>Water Heaters</h3>
+          <p>Repairs, replacements and tankless installs. We fit most standard heaters the same day we quote them.</p>
+        </div>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-photo"><img src="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?q=80&w=900&auto=format&fit=crop" alt="Chrome taps and shower fittings over a bathtub"><span class="tag">From $95</span></div>
+        <div class="service-body">
+          <h3>Leak Repair &amp; Faucets</h3>
+          <p>Dripping taps, leaking traps, running toilets. Small leaks get fixed before they turn into water damage.</p>
+        </div>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-photo"><img src="https://images.unsplash.com/photo-1620626011761-996317b8d101?q=80&w=900&auto=format&fit=crop" alt="A finished bathroom with a freestanding tub and twin sinks"><span class="tag">Free estimates</span></div>
+        <div class="service-body">
+          <h3>Bathroom Plumbing</h3>
+          <p>New tubs, showers, toilets and sinks fitted as part of your remodel, or swapped one at a time.</p>
+        </div>
+      </article>
+    </div>
+
+    <!-- Full price list: two plain columns, like the sheet we hand customers -->
+    <div class="price-list reveal" id="prices">
+      <div>
+        <h3>Drains &amp; pipes</h3>
+        <ul>
+          <li><span>Drain cleaning</span><b>from $89</b></li>
+          <li><span>Camera drain inspection</span><b>$149</b></li>
+          <li><span>Hydro jetting</span><b>from $299</b></li>
+          <li><span>Leak detection</span><b>$125</b></li>
+          <li><span>Leak repair</span><b>from $95</b></li>
+          <li><span>Sewer line repair</span><b>free estimate</b></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Around the house</h3>
+        <ul>
+          <li><span>Water heater install (40–50 gal)</span><b>from $1,450</b></li>
+          <li><span>Tankless water heater install</span><b>from $2,900</b></li>
+          <li><span>Water heater flush &amp; check</span><b>$129</b></li>
+          <li><span>Toilet repair</span><b>from $110</b></li>
+          <li><span>Faucet install</span><b>$120</b></li>
+          <li><span>Emergency call-out fee</span><b>$65*</b></li>
+        </ul>
+      </div>
+      <p class="price-note">*The $65 call-out fee comes off your bill when you go ahead with the repair. Prices are for standard jobs — we always confirm the full price in writing before starting.</p>
+    </div>
+  </section>
+
+  <!-- Special offer banner -->
+  <section class="offer reveal">
+    <div class="offer-inner">
+      <p class="offer-tag">New customers</p>
+      <h2>$25 off your first service call</h2>
+      <p>Mention this page when you book. One per household, any job over $150.</p>
+      <a class="button button-light" href="tel:+15125550187">Call and claim it</a>
+    </div>
+  </section>
+
+  <!-- ABOUT: photo on one side, the story and the numbers on the other -->
+  <section class="section story" id="about">
+    <div class="story-photo reveal"><img src="https://images.unsplash.com/photo-1530124566582-a618bc2615dc?q=80&w=1400&auto=format&fit=crop" alt="The hand tools and pliers our plumbers carry every day"></div>
+    <div class="story-text reveal">
+      <p class="eyebrow">About us</p>
+      <h2>A family shop on <em>Burnet Road</em></h2>
+      <p>FlowRight started in 2011 with one truck, run by Ray Delgado and his brother Marco. Ray had spent ten years working for a big national chain and was tired of jobs being sold instead of fixed, so they started a company that quotes honestly and stands behind the work.</p>
+      <p>Fourteen years on there are nine of us, and most of our calls still come from people we have helped before — or from their neighbours. We show up when we say we will, we put covers on our boots, and we leave the place cleaner than we found it.</p>
+      <div class="stats">
+        <div><b>2011</b><span>Started in Austin</span></div>
+        <div><b>15,000+</b><span>Jobs finished</span></div>
+        <div><b>4.8</b><span>From 900+ reviews</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery strip: recent work and finished bathrooms -->
+  <section class="gallery" aria-label="Photos of our work">
+    <img class="reveal" src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1400&auto=format&fit=crop" alt="A bathroom we plumbed, with a glass shower and double sinks">
+    <img class="reveal" src="https://images.unsplash.com/photo-1629079447777-1e605162dc8d?q=80&w=900&auto=format&fit=crop" alt="A finished bathroom with twin basins and a walk-in shower">
+    <img class="reveal" src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?q=80&w=900&auto=format&fit=crop" alt="A tidy bathroom with a pedestal sink and toilet">
+  </section>
+
+  <!-- REVIEWS: what customers say, as cards with stars -->
+  <section class="section" id="reviews">
+    <p class="eyebrow">Reviews</p>
+    <h2>What Austin <em>actually says</em></h2>
+    <div class="review-grid">
+      <article class="review-card reveal">
+        <p class="stars" aria-label="5 out of 5 stars">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9 2.9-6Z"/></svg><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9 2.9-6Z"/></svg><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9 2.9-6Z"/></svg><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9 2.9-6Z"/></svg><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9 2.9-6Z"/></svg>
+        </p>
+        <p>“Our water heater died on a Sunday morning. They answered on the second ring, quoted over the phone, and we had hot water again by two in the afternoon.”</p>
+        <cite>— Dana W., Hyde Park</cite>
+      </article>
+      <article class="review-card reveal">
+        <p class="stars" aria-label="5 out of 5 stars">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9 2.9-6Z"/></svg><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9 2.9-6Z"/></svg><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9 2.9-6Z"/></svg><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9 2.9-6Z"/></svg><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9 2.9-6Z"/></svg>
+        </p>
+        <p>“Two other companies told us to replace the whole sewer line. FlowRight ran a camera, showed us the real problem, and fixed just that section for a third of the price.”</p>
+        <cite>— Marcus T., Round Rock</cite>
+      </article>
+      <article class="review-card reveal">
+        <p class="stars" aria-label="5 out of 5 stars">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9 2.9-6Z"/></svg><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9 2.9-6Z"/></svg><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9 2.9-6Z"/></svg><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9 2.9-6Z"/></svg><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9 2.9-6Z"/></svg>
+        </p>
+        <p>“On time, polite, and the price on the invoice was the price on the quote. They even fixed the wobbly tap in the spare bathroom while they were here, no charge.”</p>
+        <cite>— Priya S., Cedar Park</cite>
+      </article>
+    </div>
+  </section>
+
+  <!-- VISIT: hours (today is highlighted by script.js) and how to reach us -->
+  <section class="section visit" id="visit">
+    <div class="visit-card reveal">
+      <p class="eyebrow">Opening hours</p>
+      <h2>When we are around</h2>
+      <table class="hours-table" id="hours-table">
+        <tr data-days="1,2,3,4,5"><td>Monday – Friday</td><td>7:00 AM – 7:00 PM</td></tr>
+        <tr data-days="6"><td>Saturday</td><td>8:00 AM – 5:00 PM</td></tr>
+        <tr data-days="0"><td>Sunday</td><td>Emergency calls only</td></tr>
+      </table>
+      <p class="today-note" id="today-note"></p>
+    </div>
+    <div class="visit-card reveal">
+      <p class="eyebrow">Find us</p>
+      <h2>4810 Burnet Road</h2>
+      <p class="address">Austin, TX 78756<br>We cover Austin, Round Rock, Cedar Park, Pflugerville and Georgetown.</p>
+      <ul class="features">
+        <li>Free parking outside the shop</li>
+        <li>Card, cash and bank transfer accepted</li>
+        <li>Two-year warranty on our labour</li>
+        <li>We take away your old water heater, free</li>
+      </ul>
+      <a class="button" href="https://maps.google.com/?q=4810+Burnet+Road+Austin+TX" target="_blank" rel="noopener">Get directions on Google Maps</a>
+    </div>
+  </section>
+
+  <!-- CONTACT: simple form, script.js shows the thank-you note -->
+  <section class="section contact" id="contact">
+    <p class="eyebrow">Contact</p>
+    <h2>Book a visit or ask a question</h2>
+    <p class="section-intro">For anything urgent, calling is fastest. For quotes and questions, send the form and we reply within one working day.</p>
+    <form id="contact-form" class="reveal">
+      <div class="form-row">
+        <div>
+          <label for="name">Your name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+        </div>
+        <div>
+          <label for="phone">Your phone</label>
+          <input type="tel" id="phone" name="phone" placeholder="(512) 555-0100" required>
+        </div>
+      </div>
+      <label for="message">What is the problem?</label>
+      <textarea id="message" name="message" rows="4" placeholder="Hi — the kitchen sink has been draining slowly for a week..." required></textarea>
+      <button class="button" type="submit">Send message</button>
+      <p class="form-note" id="form-note" role="status"></p>
+    </form>
+  </section>
+
+  <footer class="site-footer">
+    <p class="footer-logo">FlowRight <em>Plumbing</em></p>
+    <p>4810 Burnet Road, Austin, TX 78756 · (512) 555-0187 · Emergencies answered 24/7</p>
+    <p class="social-links">
+      <a href="#" aria-label="FlowRight Plumbing on Instagram">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="4.5" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.8"/><circle cx="17.2" cy="6.8" r="1.3" fill="currentColor"/></svg>
+        Instagram
+      </a>
+      <a href="#" aria-label="FlowRight Plumbing on Facebook">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M15.5 3.5H14a4 4 0 0 0-4 4v2.5H7.5v3.5H10V21h3.8v-7.5h2.6l.6-3.5h-3.2V7.8c0-.5.4-.8.9-.8h1.8V3.5Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+        Facebook
+      </a>
+    </p>
+    <p class="footer-small">© <span id="year">2026</span> FlowRight Plumbing · Texas Master Plumber License M-00000 (fictional) · Demo website — a fictional business, made as a design sample.</p>
+  </footer>
+
+  <!-- Sticky call button on phones: one tap and the customer is calling -->
+  <a class="sticky-call" href="tel:+15125550187">
+    <svg width="19" height="19" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a12 12 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+    Call FlowRight now
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
